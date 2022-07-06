@@ -29,6 +29,7 @@ body {
     color: white;
     font-size: 20px;
     padding: 10px 0;
+    margin: 20px 0;
 }
 
 .button {
@@ -57,6 +58,16 @@ body {
     text-align: center;
     width: 50%;
     margin: auto;
+}
+
+.donate-text h1 {
+    margin: 20px 0;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.donate-text p {
+    color: #707070;
 }
 
 .main-box {
@@ -106,4 +117,22 @@ body {
 
 .sideways {
     display: flex;
+}
+
+footer {
+    text-align: center;
+    height: 200px;
+    background-color: black;
+
+}
+
+footer h1 {
+    padding: 20px 0;
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+}
+
+footer p {
+    color: #D9DBE1;
+    margin-bottom: 20px;
 }
